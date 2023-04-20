@@ -1,0 +1,411 @@
+:root {
+  --clr-black: #000909;
+  --clr-grey: #f1f1f1;
+  --clr-white: #ffffff;
+
+  --MONO: 0;   /* Monospace    */
+  --CASL: 0;   /* Casual       */
+  --slnt: 0;   /* Upright      */
+  --CRSV: 0.5; /* Auto Cursive */
+
+  --size-s: 0.8rem;
+  --size-m: 1rem;
+  --size-l: 2rem;
+
+  --fw-light: 350;
+  --fw-regular: 550;
+  --fw-bold: 1000;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--clr-grey);
+}
+
+*,
+*:before,
+*:after {
+  font-variation-settings: 
+    "MONO" var(--MONO), "CASL" var(--CASL),
+    "slnt" var(--slnt), "CRSV" var(--CRSV);
+    box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  font-family: 'Recursive', sans-serif;
+  background: var(--clr-grey);
+  overflow: auto;
+  height: 100%;
+}
+
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+/* =========================================
+---------------- TYPOGRAPHY -------------
+========================================= */
+
+p,
+.btn,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+b {
+  font-weight: var(--fw-light);
+  font-size: var(--size-s);
+  line-height: 1.3rem;
+}
+
+a {
+  color: var(--clr-acc-2);
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin-top: 0;
+}
+
+h1, header h1 {
+  font-weight: 1000;
+  transition: 1s;
+  color: var(--clr-acc-1);
+}
+
+/* h1:hover {
+  font-weight: 300;
+} */
+
+h3 {
+  font-size: var(--size-l);
+  font-weight: var(--fw-bold);
+  transition: 1s;
+  margin: 0;
+}
+
+h3:hover {
+  font-weight: var(--fw-light);
+}
+
+/* =========================================
+---------------- PROJECT GRID -------------
+========================================= */
+
+.intro {
+  padding: 3rem;
+  grid-column: span 2;
+  grid-row: span 2;
+  aspect-ratio: 1;
+}
+
+#projectGrid .intro p {
+  --CASL: 10;
+  line-height: 2.4rem;
+  font-size: var(--size-l);
+  display: contents;
+}
+
+/* ProjectGrid */
+
+#projectGrid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 1px;
+  margin-bottom: 20rem;
+}
+
+#projectGrid > * {
+  background-color: var(--clr-grey);
+}
+
+/* ProjectGrid Img */
+
+#projectGrid img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  background: var(--clr-grey);
+  padding: 0.3rem;
+}
+
+#projectGrid a img {
+  transition: all 0.3s ease;
+}
+
+#projectGrid a:hover img {
+  opacity: 0.1;
+}
+
+/* ProjectGrid Text */
+
+#index a {
+  color: var(--clr-black);
+}
+
+#index h3 {
+  margin: 0 0 3rem 0;
+  display: contents;
+}
+
+#index h3 a {
+  font-size: var(--size-l);
+  color: var(--clr-acc-1);
+  font-weight: var(--fw-bold);
+  transition: 1s;
+}
+
+#index h3 a:hover {
+  font-weight: var(--fw-regular);
+}
+
+#projectGrid > div {
+  background: var(--clr-grey);
+}
+
+#projectGrid > a {
+  position: relative;
+  z-index: 1;
+}
+
+#projectGrid > a > div {
+  position: absolute;
+    width: 80%;
+    top: 40%;
+    left: 47.7%;
+    z-index: -1;  
+    transform: translateX(-50%);
+    display: inherit;
+    font-size: var(--size-l);
+    font-weight: var(--fw-400);
+    text-align: center;
+}
+
+#projectGrid h2,
+#projectGrid a {
+  font-size: var(--size-m);
+  font-weight: var(--fw-regular);
+  text-decoration: none;
+  line-height: 0.8rem;
+  transition: 1s;
+}
+
+#projectGrid p {
+  --CASL: 1;
+  font-size: var(--size-l);
+  font-weight: var(--fw-light);
+  text-decoration: none;
+  line-height: 2rem;
+  transition: 1s;
+}
+
+#projectGrid a:hover p {
+  --CASL: -10;
+  font-weight: var(--fw-bold);
+  letter-spacing: 0.01rem;
+}
+
+/* =========================================
+------------------ HEADER ---------------
+========================================= */
+
+header {
+  padding: 3rem 1rem 1rem 3rem;
+  margin-bottom: 5rem;
+}
+
+header h3 a {
+  text-decoration: none;
+  color: var(--clr-black);
+}
+
+/* =========================================
+------------------ PROJECT ---------------
+========================================= */
+
+article {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1lfr);
+  grid-gap: 0;
+}
+
+.projectIntro {
+  grid-column: span 1;
+  padding: 3rem;
+  min-height: 100vh;
+}
+
+.sticky {
+  position: sticky;
+  top: 1rem;
+}
+
+#singleProject h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+#singleProject h2 {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+#singleProject p {
+  font-size: var(--size-m);
+  font-weight: var(--fw-light);
+}
+
+#singleProject p a {
+  font-size: var(--size-s);
+  font-weight: var(--fw-regular);
+  transition: 1s;
+  text-decoration: none;
+}
+
+#singleProject p a:hover {
+  --slnt: -10;
+  font-size: var(--size-m);
+  font-weight: 300;
+}
+
+.bio::before {
+  display: block;
+  content: "***";
+  text-align: center;
+  font-weight: var(--fw-regular);
+  font-size: var(--size-l);
+  color: var(--clr-acc-1);
+  margin: 1.4rem 0 1rem 0;
+}
+
+.projectImg {
+  grid-column: span 2;
+  margin-top: 8rem;
+}
+
+.projectImg img {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.projectImg img:last-child {
+  margin-bottom: none;
+}
+
+#singleProject #projectGrid {
+  width: 100%;
+  display: grid;
+  grid-column: 1/4;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 0.5rem;
+  background: none;
+  margin-top: 10rem;
+}
+
+#singleProject #projectGrid img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  background: var(--clr-grey);
+  padding: 0;
+}
+
+#singleProject #projectGrid > div {
+  border: 0;
+}
+
+#singleProject #projectGrid > a > div {
+  display: none;
+}
+
+/* =========================================
+------------------ PRELOADER ---------------
+========================================= */
+
+#preloader {
+  display: flex;
+  align-items: 70vh;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 2rem;
+  transition: top 0.4s ease;
+  background: var(--clr-grey);
+  font-size: var(--size-s);
+  font-weight: var(--fw-light);
+  z-index: 100;
+}
+
+#preloader * {
+  color: var(--clr-black);
+}
+
+#preloader.hide {
+  top: 110vh;
+}
+
+/* =========================================
+--------------- RESPONSIVENESS -------------
+========================================= */
+
+@media (max-width: 1400px) {
+  #projectGrid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  header p {
+    width: 40vw;
+  }
+}
+
+@media (max-width: 1100px) {
+  #projectGrid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  header p {
+    width: 50vw;
+  }
+}
+
+@media (max-width: 768px) {
+  #projectGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #projectGrid div.singleProjectLarge {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+
+  header p {
+    width: 60vw;
+  }
+}
+
+@media (max-width: 600px) {
+  #projectGrid {
+    grid-template-columns: 1fr;
+  }
+
+  header p {
+    width: 90vw;
+  }
+}
