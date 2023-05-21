@@ -2,241 +2,115 @@
   {
     "title": "Reece",
     "designer": "Nora Warschewski",
-    "country": "Ruhr Metropolis",
-    "gmt": "GMT+2",
-    "url": "/reece-by-nora-warschewski.html",
-    "img": "reece.jpg"
+    "url": "../revival/reece",
+    "img": "/reece/thumbnail.jpg"
+  },
+  {
+    "title": "Gautina",
+    "designer": "Joke de Winter",
+    "url": "../revival/gautina",
+    "img": "/gautina/thumbnail.jpg"
   },
   {
     "title": "Reincarnation",
-    "designer": "Huy Lê",
-    "country": "Vietnam",
-    "gmt": "GMT+7",
-    "url": "/reece-by-nora-warschewski.html",
-    "img": "placeholder.jpg"
+    "designer": "Quang Huy Lê",
+    "url": "../revival/reincarnation",
+    "img": "/reincarnation/thumbnail.jpg"
   },
   {
     "title": "Eusebius",
     "designer": "David Huang",
-    "country": "London",
-    "gmt": "GMT+8",
-    "url": "/reece-by-nora-warschewski.html",
+    "url": "../revival/eusebius",
+    "img": "placeholder.jpg"
+  },
+  {
+    "title": "Agitate",
+    "designer": "Kurt F. Shaffert",
+    "url": "../revival/agitate",
+    "img": "placeholder.jpg"
+  },
+  {
+    "title": "Bk Ferry Roman",
+    "designer": "Tim Cronin",
+    "url": "../revival/",
+    "img": "placeholder.jpg"
+  },
+  {
+    "title": "",
+    "designer": "Sarah Wong",
+    "url": "../revival/",
+    "img": "placeholder.jpg"
+  },
+  {
+    "title": "",
+    "designer": "Aasawari Kulkarni",
+    "url": "../revival/",
     "img": "placeholder.jpg"
   },
   {
     "title": "Charlotte",
     "designer": "Adriana Garcidueñas",
-    "country": "Tijuana",
-    "gmt": "GMT-7",
-    "url": "/reece-by-nora-warschewski.html",
+    "url": "../revival/",
     "img": "placeholder.jpg"
   },
   {
-    "title": "Gautina",
-    "designer": "Joke de Winter",
-    "country": "England",
-    "gmt": "GMT+0",
-    "url": "/reece-by-nora-warschewski.html",
+    "title": "Figgy V.",
+    "designer": "Allie Schmitz",
+    "url": "../revival/",
     "img": "placeholder.jpg"
   },
   {
-    "title": "xx",
-    "designer": "xx",
-    "country": "xx",
-    "gmt": "GMT+0",
-    "url": "/reece-by-nora-warschewski.html",
+    "title": "Xerxes",
+    "designer": "Beto Lopez",
+    "url": "../revival/",
     "img": "placeholder.jpg"
   },
   {
-    "title": "xx",
-    "designer": "xx",
-    "country": "xx",
-    "gmt": "GMT+0",
-    "url": "/reece-by-nora-warschewski.html",
+    "title": "",
+    "designer": "Alina",
+    "url": "../revival/",
     "img": "placeholder.jpg"
   },
   {
-    "title": "xx",
-    "designer": "xx",
-    "country": "xx",
-    "gmt": "GMT+0",
-    "url": "/reece-by-nora-warschewski.html",
+    "title": "",
+    "designer": "Avery",
+    "url": "../revival/",
     "img": "placeholder.jpg"
   },
   {
-    "title": "xx",
-    "designer": "xx",
-    "country": "xx",
-    "gmt": "GMT+0",
-    "url": "/reece-by-nora-warschewski.html",
+    "title": "",
+    "designer": "Caroline Lima",
+    "url": "../revival/",
     "img": "placeholder.jpg"
   },
   {
-    "title": "xx",
-    "designer": "xx",
-    "country": "xx",
-    "gmt": "GMT+0",
-    "url": "/reece-by-nora-warschewski.html",
+    "title": "",
+    "designer": "Jacob Witt",
+    "url": "../revival/",
     "img": "placeholder.jpg"
   },
   {
-    "title": "xx",
-    "designer": "xx",
-    "country": "xx",
-    "gmt": "GMT+0",
-    "url": "/reece-by-nora-warschewski.html",
+    "title": "Wind in the Willows",
+    "designer": "Julia Liang",
+    "url": "../revival/",
     "img": "placeholder.jpg"
   },
   {
-    "title": "xx",
-    "designer": "xx",
-    "country": "xx",
-    "gmt": "GMT+0",
-    "url": "/reece-by-nora-warschewski.html",
+    "title": "Mechanik",
+    "designer": "Raquel Rodriguez",
+    "url": "../revival/",
     "img": "placeholder.jpg"
   },
   {
-    "title": "xx",
-    "designer": "xx",
-    "country": "xx",
-    "gmt": "GMT+0",
-    "url": "/reece-by-nora-warschewski.html",
+    "title": "",
+    "designer": "Rishi",
+    "url": "../revival/",
     "img": "placeholder.jpg"
   },
   {
-    "title": "xx",
-    "designer": "xx",
-    "country": "xx",
-    "gmt": "GMT+0",
-    "url": "/reece-by-nora-warschewski.html",
-    "img": "placeholder.jpg"
-  },
-  {
-    "title": "xx",
-    "designer": "xx",
-    "country": "xx",
-    "gmt": "GMT+0",
-    "url": "/reece-by-nora-warschewski.html",
-    "img": "placeholder.jpg"
-  },
-  {
-    "title": "xx",
-    "designer": "xx",
-    "country": "xx",
-    "gmt": "GMT+0",
-    "url": "/reece-by-nora-warschewski.html",
-    "img": "placeholder.jpg"
-  },
-  {
-    "title": "xx",
-    "designer": "xx",
-    "country": "xx",
-    "gmt": "GMT+0",
-    "url": "/reece-by-nora-warschewski.html",
-    "img": "placeholder.jpg"
-  },
-  {
-    "title": "xx",
-    "designer": "xx",
-    "country": "xx",
-    "gmt": "GMT+0",
-    "url": "/reece-by-nora-warschewski.html",
-    "img": "placeholder.jpg"
-  },
-  {
-    "title": "xx",
-    "designer": "xx",
-    "country": "xx",
-    "gmt": "GMT+0",
-    "url": "/reece-by-nora-warschewski.html",
-    "img": "placeholder.jpg"
-  },
-  {
-    "title": "xx",
-    "designer": "xx",
-    "country": "xx",
-    "gmt": "GMT+0",
-    "url": "/reece-by-nora-warschewski.html",
-    "img": "placeholder.jpg"
-  },
-  {
-    "title": "xx",
-    "designer": "xx",
-    "country": "xx",
-    "gmt": "GMT+0",
-    "url": "/reece-by-nora-warschewski.html",
-    "img": "placeholder.jpg"
-  },
-  {
-    "title": "xx",
-    "designer": "xx",
-    "country": "xx",
-    "gmt": "GMT+0",
-    "url": "/reece-by-nora-warschewski.html",
-    "img": "placeholder.jpg"
-  },
-  {
-    "title": "xx",
-    "designer": "xx",
-    "country": "xx",
-    "gmt": "GMT+0",
-    "url": "/reece-by-nora-warschewski.html",
-    "img": "placeholder.jpg"
-  },
-  {
-    "title": "xx",
-    "designer": "xx",
-    "country": "xx",
-    "gmt": "GMT+0",
-    "url": "/reece-by-nora-warschewski.html",
-    "img": "placeholder.jpg"
-  },
-  {
-    "title": "xx",
-    "designer": "xx",
-    "country": "xx",
-    "gmt": "GMT+0",
-    "url": "/reece-by-nora-warschewski.html",
-    "img": "placeholder.jpg"
-  },
-  {
-    "title": "xx",
-    "designer": "xx",
-    "country": "xx",
-    "gmt": "GMT+0",
-    "url": "/reece-by-nora-warschewski.html",
-    "img": "placeholder.jpg"
-  },
-  {
-    "title": "xx",
-    "designer": "xx",
-    "country": "xx",
-    "gmt": "GMT+0",
-    "url": "/reece-by-nora-warschewski.html",
-    "img": "placeholder.jpg"
-  },
-  {
-    "title": "xx",
-    "designer": "xx",
-    "country": "xx",
-    "gmt": "GMT+0",
-    "url": "/reece-by-nora-warschewski.html",
-    "img": "placeholder.jpg"
-  },
-  {
-    "title": "xx",
-    "designer": "xx",
-    "country": "xx",
-    "gmt": "GMT+0",
-    "url": "/reece-by-nora-warschewski.html",
-    "img": "placeholder.jpg"
-  },
-  {
-    "title": "xxx",
-    "designer": "Tim Cronin",
-    "country": "USA",
-    "gmt": "GMT-9",
-    "url": "/reece-by-nora-warschewski.html",
+    "title": "Ronda",
+    "designer": "Rong Xiang",
+    "url": "../revival/",
     "img": "placeholder.jpg"
   }
 ]

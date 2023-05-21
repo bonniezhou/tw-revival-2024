@@ -41,6 +41,9 @@ body {
   background: var(--clr-grey);
   overflow: auto;
   height: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 body {
@@ -85,10 +88,6 @@ h1, header h1 {
   color: var(--clr-acc-1);
 }
 
-/* h1:hover {
-  font-weight: 300;
-} */
-
 h3 {
   font-size: var(--size-l);
   font-weight: var(--fw-bold);
@@ -111,11 +110,57 @@ h3:hover {
   aspect-ratio: 1;
 }
 
+.lecturer {
+  padding: 3rem;
+  grid-column: span 1;
+  grid-row: span 2;
+  aspect-ratio: 1;
+}
+
 #projectGrid .intro p {
-  --CASL: 10;
+  --CASL: 1;
   line-height: 2.4rem;
   font-size: var(--size-l);
   display: contents;
+}
+
+#instructors .lecturer p, #credits p {
+  --CASL: 1;
+  line-height: 1.4rem;
+  font-size: var(--size-m);
+  display: contents;
+}
+
+#credits p {
+  display: block;
+  margin-bottom: 0;
+}
+
+#projectGrid .intro p > a {
+  --CASL: 1;
+  --slnt: -12;
+  line-height: 2.4rem;
+  font-size: var(--size-l);
+  font-weight: var(--fw-light);
+  display: contents;
+  text-decoration: none;
+  transition: 1s;
+}
+
+#instructors .lecturer p > a, #credits p > a {
+  --CASL: 1;
+  --slnt: -12;
+  line-height: 2.4rem;
+  font-size: var(--size-m);
+  font-weight: var(--fw-light);
+  display: contents;
+  text-decoration: none;
+  transition: 1s;
+}
+
+#projectGrid .intro p > a:hover, #instructors .lecturer p > a:hover, #credits p > a:hover, #credits a:hover {
+  font-weight: var(--fw-regular);
+  transition: 1s;
 }
 
 /* ProjectGrid */
@@ -125,11 +170,22 @@ h3:hover {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 1px;
-  margin-bottom: 20rem;
 }
 
-#projectGrid > * {
+#projectGrid > *, #instructors > * {
   background-color: var(--clr-grey);
+}
+
+#instructors {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1px;
+}
+
+#credits {
+  width: 100%;
+  padding: 3rem;
 }
 
 /* ProjectGrid Img */
@@ -157,15 +213,22 @@ h3:hover {
 }
 
 #index h3 {
-  margin: 0 0 3rem 0;
+  margin: 0 0 2rem 0;
   display: contents;
 }
 
 #index h3 a {
   font-size: var(--size-l);
-  color: var(--clr-acc-1);
   font-weight: var(--fw-bold);
   transition: 1s;
+  text-decoration: none;
+}
+
+#instructors h3, #instructors h3 a, #credits h3, #credits h3 a {
+  font-size: var(--size-m);
+  font-weight: var(--fw-bold);
+  transition: 1s;
+  text-decoration: none;
 }
 
 #index h3 a:hover {
@@ -184,11 +247,13 @@ h3:hover {
 #projectGrid > a > div {
   position: absolute;
     width: 80%;
-    top: 40%;
-    left: 47.7%;
+    top: 52%;
+    left: 50%;
     z-index: -1;  
-    transform: translateX(-50%);
-    display: inherit;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: var(--size-l);
     font-weight: var(--fw-400);
     text-align: center;
@@ -236,16 +301,15 @@ header h3 a {
 ------------------ PROJECT ---------------
 ========================================= */
 
-article {
-  width: 100%;
-  height: 100%;
+#singleProject article {
   display: grid;
-  grid-template-columns: repeat(5, 1lfr);
-  grid-gap: 0;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: auto auto;
+  grid-gap: 1rem;
 }
 
 .projectIntro {
-  grid-column: span 1;
+  grid-column: span 3;
   padding: 3rem;
   min-height: 100vh;
 }
@@ -294,8 +358,8 @@ article {
 }
 
 .projectImg {
-  grid-column: span 2;
-  margin-top: 8rem;
+  grid-column: span 5;
+  margin: 8rem 3rem 1rem 3rem;
 }
 
 .projectImg img {
@@ -310,11 +374,10 @@ article {
 #singleProject #projectGrid {
   width: 100%;
   display: grid;
-  grid-column: 1/4;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-gap: 0.5rem;
+  grid-template-columns: repeat(5, lfr);
+  grid-gap: 1rem;
   background: none;
-  margin-top: 10rem;
+  margin: 6rem 0;
 }
 
 #singleProject #projectGrid img {
@@ -334,34 +397,6 @@ article {
 }
 
 /* =========================================
------------------- PRELOADER ---------------
-========================================= */
-
-#preloader {
-  display: flex;
-  align-items: 70vh;
-  width: 100%;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0;
-  padding: 2rem;
-  transition: top 0.4s ease;
-  background: var(--clr-grey);
-  font-size: var(--size-s);
-  font-weight: var(--fw-light);
-  z-index: 100;
-}
-
-#preloader * {
-  color: var(--clr-black);
-}
-
-#preloader.hide {
-  top: 110vh;
-}
-
-/* =========================================
 --------------- RESPONSIVENESS -------------
 ========================================= */
 
@@ -377,35 +412,95 @@ article {
 
 @media (max-width: 1100px) {
   #projectGrid {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
   }
 
-  header p {
-    width: 50vw;
+  header {
+    padding: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  #singleProject article {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .projectIntro {
+    grid-column: span 1;
+    padding: 1rem;
+  }
+
+  .projectImg {
+    grid-column: span 2;
+    margin: 1rem;
+  }
+  
+  .projectImg img {
+    margin-bottom: 1rem;
   }
 }
 
 @media (max-width: 768px) {
-  #projectGrid {
-    grid-template-columns: 1fr 1fr;
+  #projectGrid, #instructors {
+    grid-template-columns: repeat (3, 1fr);
   }
 
-  #projectGrid div.singleProjectLarge {
-    grid-column: span 1;
-    grid-row: span 1;
+  .intro {
+    padding: 1rem;
+    grid-column: span 2;
+    grid-row: span 2;
+    aspect-ratio: 1;
   }
 
-  header p {
-    width: 60vw;
+  .lecturer {
+    padding: 1rem;
+    grid-column: span 3;
+    grid-row: span 2;
+    aspect-ratio: 1;
+  }
+
+  #credits {
+    padding: 1rem;
   }
 }
 
 @media (max-width: 600px) {
-  #projectGrid {
+  #projectGrid, #instructors, #credits {
     grid-template-columns: 1fr;
   }
 
-  header p {
-    width: 90vw;
+  #credits {
+    padding: 1rem;
+  }
+
+  .intro, .lecturer {
+    padding: 1rem;
+    grid-column: span 1;
+    grid-row: span 1;
+    aspect-ratio: 1;
+  }
+
+  header {
+    padding: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  #singleProject article {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .projectIntro {
+    grid-column: span 1;
+    padding: 1rem;
+  }
+
+  .projectImg {
+    grid-column: span 1;
+    margin: 1rem;
+  }
+  
+  .projectImg img {
+    margin-bottom: 1rem;
   }
 }
