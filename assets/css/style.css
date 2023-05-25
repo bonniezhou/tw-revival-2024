@@ -466,6 +466,13 @@ header h3 a {
 }
 
 @media (max-width: 600px) {
+  #projectGrid .intro p {
+    --CASL: 1;
+    line-height: 2.4rem;
+    font-size: var(--size-m);
+    display: contents;
+  }
+
   #projectGrid, #instructors, #credits {
     grid-template-columns: 1fr;
   }
