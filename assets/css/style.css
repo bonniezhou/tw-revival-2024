@@ -332,6 +332,7 @@ header h3 a {
 #singleProject p {
   font-size: var(--size-m);
   font-weight: var(--fw-light);
+  line-height: 1.4rem;
 }
 
 #singleProject p a {
