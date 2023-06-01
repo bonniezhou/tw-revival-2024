@@ -21,73 +21,49 @@
     "title": "Eusebius",
     "designer": "David Huang",
     "url": "../revival/eusebius/",
-    "img": "placeholder.jpg"
+    "img": "/eusebius/thumbnail.jpg"
+  },
+  {
+    "title": "Charlotte",
+    "designer": "Adriana Garcidueñas",
+    "url": "../revival/charlotte/",
+    "img": "charlotte/thumbnail.jpeg"
+  },
+  {
+    "title": "Xerxes",
+    "designer": "Beto López Tristán",
+    "url": "../revival/xerxes/",
+    "img": "xerxes/thumbnail.jpg"
+  },
+  {
+    "title": "Sojourn",
+    "designer": "Avery Lee Qiu Wen",
+    "url": "../revival/sojourn/",
+    "img": "sojourn/thumbnail.png"
+  },
+  {
+    "title": "Jean",
+    "designer": "Caroline Rodrigues de Lima",
+    "url": "../revival/jean/",
+    "img": "jean/thumbnail.jpg"
+  },
+  {
+    "title": "Willo",
+    "designer": "Jacob Witt",
+    "url": "../revival/willo",
+    "img": "willo/thumbnail.jpg"
+  },
+  {
+    "title": "Jakob",
+    "designer": "Rishi Murugesan ",
+    "url": "../revival/jakob",
+    "img": "jakob/thumbnail.jpg"
   },
   {
     "title": "Agitate",
     "designer": "Kurt F. Shaffert",
     "url": "../revival/agitate",
-    "img": "placeholder.jpg"
-  },
-  {
-    "title": "Bk Ferry Roman",
-    "designer": "Tim Cronin",
-    "url": "../revival/",
-    "img": "placeholder.jpg"
-  },
-  {
-    "title": "",
-    "designer": "Sarah Wong",
-    "url": "../revival/",
-    "img": "placeholder.jpg"
-  },
-  {
-    "title": "",
-    "designer": "Aasawari Kulkarni",
-    "url": "../revival/",
-    "img": "placeholder.jpg"
-  },
-  {
-    "title": "Charlotte",
-    "designer": "Adriana Garcidueñas",
-    "url": "../revival/",
-    "img": "placeholder.jpg"
-  },
-  {
-    "title": "Figgy V.",
-    "designer": "Allie Schmitz",
-    "url": "../revival/",
-    "img": "placeholder.jpg"
-  },
-  {
-    "title": "Xerxes",
-    "designer": "Beto Lopez",
-    "url": "../revival/",
-    "img": "placeholder.jpg"
-  },
-  {
-    "title": "",
-    "designer": "Alina",
-    "url": "../revival/",
-    "img": "placeholder.jpg"
-  },
-  {
-    "title": "",
-    "designer": "Avery",
-    "url": "../revival/",
-    "img": "placeholder.jpg"
-  },
-  {
-    "title": "",
-    "designer": "Caroline Lima",
-    "url": "../revival/",
-    "img": "placeholder.jpg"
-  },
-  {
-    "title": "",
-    "designer": "Jacob Witt",
-    "url": "../revival/",
-    "img": "placeholder.jpg"
+    "img": "agitate/thumbnail.jpg"
   },
   {
     "title": "Wind in the Willows",
@@ -103,7 +79,31 @@
   },
   {
     "title": "",
-    "designer": "Rishi",
+    "designer": "Alina",
+    "url": "../revival/",
+    "img": "placeholder.jpg"
+  },
+  {
+    "title": "Figgy V.",
+    "designer": "Allie Schmitz",
+    "url": "../revival/",
+    "img": "placeholder.jpg"
+  },
+  {
+    "title": "",
+    "designer": "Aasawari Kulkarni",
+    "url": "../revival/",
+    "img": "placeholder.jpg"
+  },
+  {
+    "title": "Bk Ferry Roman",
+    "designer": "Tim Cronin",
+    "url": "../revival/",
+    "img": "placeholder.jpg"
+  },
+  {
+    "title": "",
+    "designer": "Sarah Wong",
     "url": "../revival/",
     "img": "placeholder.jpg"
   },

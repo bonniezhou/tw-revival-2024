@@ -273,7 +273,7 @@ h3:hover {
   font-size: var(--size-l);
   font-weight: var(--fw-light);
   text-decoration: none;
-  line-height: 2rem;
+  line-height: 2.3rem;
   transition: 1s;
 }
 
@@ -469,7 +469,7 @@ header h3 a {
   #projectGrid .intro p {
     --CASL: 1;
     line-height: 2.4rem;
-    font-size: var(--size-m);
+    font-size: var(--size-l);
     display: contents;
   }
 
