@@ -396,6 +396,9 @@ header h3 a {
 #singleProject #projectGrid > a > div {
   display: none;
 }
+#singleProject #projectGrid > a:hover > div {
+  display: block;
+}
 
 /* =========================================
 --------------- RESPONSIVENESS -------------
