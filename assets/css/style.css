@@ -110,30 +110,11 @@ h3:hover {
   aspect-ratio: 1;
 }
 
-.lecturer {
-  padding: 3rem;
-  grid-column: span 1;
-  grid-row: span 2;
-  aspect-ratio: 1;
-}
-
 #projectGrid .intro p {
   --CASL: 1;
   line-height: 2.4rem;
   font-size: var(--size-l);
   display: contents;
-}
-
-#instructors .lecturer p, #credits p {
-  --CASL: 1;
-  line-height: 1.4rem;
-  font-size: var(--size-m);
-  display: contents;
-}
-
-#credits p {
-  display: block;
-  margin-bottom: 0;
 }
 
 #projectGrid .intro p > a {
@@ -147,18 +128,7 @@ h3:hover {
   transition: 1s;
 }
 
-#instructors .lecturer p > a, #credits p > a {
-  --CASL: 1;
-  --slnt: -12;
-  line-height: 2.4rem;
-  font-size: var(--size-m);
-  font-weight: var(--fw-light);
-  display: contents;
-  text-decoration: none;
-  transition: 1s;
-}
-
-#projectGrid .intro p > a:hover, #instructors .lecturer p > a:hover, #credits p > a:hover, #credits a:hover {
+#projectGrid .intro p > a:hover {
   font-weight: var(--fw-regular);
   transition: 1s;
 }
@@ -172,20 +142,8 @@ h3:hover {
   grid-gap: 1px;
 }
 
-#projectGrid > *, #instructors > * {
+#projectGrid > * {
   background-color: var(--clr-grey);
-}
-
-#instructors {
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1px;
-}
-
-#credits {
-  width: 100%;
-  padding: 3rem;
 }
 
 /* ProjectGrid Img */
@@ -219,13 +177,6 @@ h3:hover {
 
 #index h3 a {
   font-size: var(--size-l);
-  font-weight: var(--fw-bold);
-  transition: 1s;
-  text-decoration: none;
-}
-
-#instructors h3, #instructors h3 a, #credits h3, #credits h3 a {
-  font-size: var(--size-m);
   font-weight: var(--fw-bold);
   transition: 1s;
   text-decoration: none;
@@ -455,17 +406,6 @@ header h3 a {
     grid-row: span 2;
     aspect-ratio: 1;
   }
-
-  .lecturer {
-    padding: 1rem;
-    grid-column: span 3;
-    grid-row: span 2;
-    aspect-ratio: 1;
-  }
-
-  #credits {
-    padding: 1rem;
-  }
 }
 
 @media (max-width: 600px) {
@@ -476,15 +416,11 @@ header h3 a {
     display: contents;
   }
 
-  #projectGrid, #instructors, #credits {
+  #projectGrid {
     grid-template-columns: 1fr;
   }
 
-  #credits {
-    padding: 1rem;
-  }
-
-  .intro, .lecturer {
+  .intro {
     padding: 1rem;
     grid-column: span 1;
     grid-row: span 1;
