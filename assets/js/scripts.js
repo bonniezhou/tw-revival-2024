@@ -9,7 +9,14 @@
     }
   }
 
-  function shuffleArray(array) {
+
+  function shuffleArray(fontData, path) {
+    function filterArray() {
+      return fontData.filter((el) => !el.url.includes(path));
+    }
+
+    let array = (path == '/index.html') ? fontData : filterArray();
+
     for (let i = array.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [array[i], array[j]] = [array[j], array[i]];
@@ -18,12 +25,12 @@
   }
 
   async function setup() {
+    let path = window.location.pathname;
     let fontData = await getJSONData();
-    let shuffledData = shuffleArray(fontData);
+    let shuffledData = shuffleArray(fontData, path)
     const parent = document.getElementById("projectGrid");
 
     for (let i = 0; i < shuffledData.length; i++) {
-      let path = window.location.pathname;
       const project = shuffledData[i];
 
       const singleProject = document.createElement("a");
