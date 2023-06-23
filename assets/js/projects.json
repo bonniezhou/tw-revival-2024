@@ -50,31 +50,31 @@
   {
     "title": "Willo",
     "designer": "Jacob Witt",
-    "url": "../revival/willo",
+    "url": "../revival/willo/",
     "img": "willo/thumbnail.jpg"
   },
   {
     "title": "Jakob",
     "designer": "Rishi Murugesan ",
-    "url": "../revival/jakob",
+    "url": "../revival/jakob/",
     "img": "jakob/thumbnail.jpg"
   },
   {
     "title": "Agitate",
     "designer": "Kurt F. Shaffert",
-    "url": "../revival/agitate",
+    "url": "../revival/agitate/",
     "img": "agitate/thumbnail.jpg"
   },
   {
     "title": "Hasten",
     "designer": "Julia Liang",
-    "url": "../revival/hasten",
+    "url": "../revival/hasten/",
     "img": "hasten/thumbnail.jpg"
   },
   {
     "title": "Mechanik",
     "designer": "Raquel Rodriguez",
-    "url": "../revival/mechanick",
+    "url": "../revival/mechanick/",
     "img": "mechanick/thumbnail.png"
   },
   {
@@ -92,13 +92,13 @@
   {
     "title": "Wicked",
     "designer": "Aasawari S. Kulkarni",
-    "url": "../revival/wicked",
+    "url": "../revival/wicked/",
     "img": "wicked/thumbnail.jpg"
   },
   {
     "title": "BK Ferry",
     "designer": "Tim Cronin",
-    "url": "../revival/bk-ferry",
+    "url": "../revival/bk-ferry/",
     "img": "bkferry/thumbnail.png"
   },
   {
@@ -110,7 +110,7 @@
   {
     "title": "Ronda",
     "designer": "Rong Xiang",
-    "url": "../revival/ronda",
+    "url": "../revival/ronda/",
     "img": "ronda/thumbnail.jpg"
   }
 ]
