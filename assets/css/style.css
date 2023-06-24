@@ -332,21 +332,27 @@ header h3:hover {
 }
 
 #credits {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
   padding: 3rem;
 }
 
-#credits > .website-credits {
+#credits > .website-credits, #credits > .font-credits {
   margin-bottom: 3rem;
+  padding: 3rem 3rem 0 0;
 }
 
 #credits > div > h3 {
   display: block;
   line-height: normal;
-  margin-bottom: 1rem;
+  font-size: var(--size-m);
+  font-weight: var(--fw-regular);
+  margin-bottom: 0.5rem;
 }
 
 #credits > div > p {
-  font-size: var(--size-m);
+  font-size: var(--size-s);
+  margin-bottom: 0.3rem;
 }
 
 /* =========================================
