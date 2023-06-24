@@ -361,11 +361,15 @@ header h3:hover {
 
 @media (max-width: 1400px) {
   #projectGrid {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
   }
 
   header p {
     width: 40vw;
+  }
+
+  #credits {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -397,13 +401,13 @@ header h3:hover {
   .projectImg img {
     margin-bottom: 1rem;
   }
+
+  #credits {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 @media (max-width: 768px) {
-  #projectGrid, #instructors {
-    grid-template-columns: repeat (3, 1fr);
-  }
-
   .intro {
     aspect-ratio: 1;
     grid-column: span 2;
@@ -453,5 +457,9 @@ header h3:hover {
   
   .projectImg img {
     margin-bottom: 1rem;
+  }
+
+  #credits {
+    grid-template-columns: 1fr;
   }
 }
