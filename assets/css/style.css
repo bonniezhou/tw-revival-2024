@@ -425,8 +425,19 @@ header h3:hover {
   #projectGrid .intro p {
     --CASL: 1;
     display: contents;
-    font-size: var(--size-l);
-    line-height: 2.4rem;
+    font-size: var(--size-m);
+    line-height: 1.8rem;
+  }
+
+  #projectGrid .intro p > a {
+    --CASL: 1;
+    --slnt: -12;
+    font-size: var(--size-m);
+    line-height: 1rem;
+  }
+
+  #index h3 a {
+    font-size: var(--size-m);
   }
 
   #projectGrid {
@@ -434,9 +445,7 @@ header h3:hover {
   }
 
   .intro {
-    aspect-ratio: 1;
-    grid-column: span 1;
-    grid-row: span 1;
+    grid-column: span 2;
     padding: 1rem;
   }
 
