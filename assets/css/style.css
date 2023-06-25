@@ -414,6 +414,11 @@ header h3:hover {
     grid-row: span 2;
     padding: 1rem;
   }
+
+  #credits {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 1rem;
+  }
 }
 
 @media (max-width: 600px) {
