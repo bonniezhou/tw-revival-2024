@@ -323,12 +323,12 @@ header h3:hover {
 }
 
 #singleProject #projectGrid {
-  grid-gap: 1rem;
+  grid-gap: 1px;
   margin: 6rem 0;
 }
 
 #singleProject #projectGrid img {
-  padding: 0;
+  padding: 0.3rem;
 }
 
 #credits {
