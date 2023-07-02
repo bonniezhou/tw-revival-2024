@@ -11,6 +11,7 @@
   --size-s: 0.8rem;
   --size-m: 1rem;
   --size-l: 2rem;
+  --size-l: 3rem;
 
   --fw-light: 350;
   --fw-regular: 550;
@@ -360,6 +361,16 @@ header h3:hover {
 ========================================= */
 
 @media (max-width: 1400px) {
+  #projectGrid .intro p {
+    font-size: var(--size-xl);
+    line-height: 1.8rem;
+  }
+
+  #projectGrid .intro p > a {
+    font-size: var(--size-xl);
+    line-height: 1rem;
+  }
+
   #projectGrid {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -374,6 +385,16 @@ header h3:hover {
 }
 
 @media (max-width: 1100px) {
+  #projectGrid .intro p {
+    font-size: var(--size-l);
+    line-height: 1.8rem;
+  }
+
+  #projectGrid .intro p > a {
+    font-size: var(--size-l);
+    line-height: 1rem;
+  }
+
   #projectGrid {
     grid-template-columns: repeat(3, 1fr);
   }
