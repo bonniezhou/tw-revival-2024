@@ -116,7 +116,6 @@ h3 {
 #projectGrid .intro p > a {
   --CASL: 1;
   --slnt: -12;
-  display: contents;
   font-size: var(--size-l);
   font-weight: var(--fw-light);
   line-height: 2.4rem;

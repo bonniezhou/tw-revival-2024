@@ -27,7 +27,7 @@
   async function setup() {
     let path = window.location.pathname;
     let fontData = await getJSONData();
-    let shuffledData = shuffleArray(fontData, path)
+    let shuffledData = shuffleArray(fontData, path);
     const parent = document.getElementById("projectGrid");
 
     for (let i = 0; i < shuffledData.length; i++) {
