@@ -9,13 +9,15 @@
     }
   }
 
-
-  function shuffleArray(fontData, path) {
+  /*
+  The project grid data is shuffled on both the index and project pages. When a user is on a project page we remove the current project from the grid using the filterArray fn and then shuffle.
+  */
+  function shuffleArray(fontData, onProjectPage, path) {
     function filterArray() {
       return fontData.filter((el) => !el.url.includes(path));
     }
 
-    let array = (path == '/index.html') ? fontData : filterArray();
+    let array = (!onProjectPage) ? fontData : filterArray();
 
     for (let i = array.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
@@ -24,29 +26,26 @@
     return array;
   }
 
-  async function setup() {
+  async function projectGridSetup() {
+    // Set the path and onProjectPage variables to help render the correct img.src and href values in the HTML, and to pass on to shuffleArray fn.
     let path = window.location.pathname;
-    let fontData = await getJSONData();
-    let shuffledData = shuffleArray(fontData, path)
-    const parent = document.getElementById("projectGrid");
+    let onProjectPage = path.includes('revival'); // ie, revival/reece/
 
+    // Get data
+    let fontData = await getJSONData();
+    let shuffledData = shuffleArray(fontData, onProjectPage, path);
+
+    // Render the project grid
+    const parent = document.getElementById("projectGrid");
     for (let i = 0; i < shuffledData.length; i++) {
       const project = shuffledData[i];
 
       const singleProject = document.createElement("a");
-      if (path == '/index.html') {
-        singleProject.href = project.url;
-      } else {
-        singleProject.href = `../${project.url}`;
-      }
+      singleProject.href = !onProjectPage ? project.url : `../${project.url}`;
       singleProject.setAttribute("id", i);
 
       const img = document.createElement("img");
-      if (path == '/index.html') {
-        img.src = `./assets/img/${project.img}`;
-      } else {
-        img.src = `../../assets/img/${project.img}`;
-      }
+      img.src = !onProjectPage ? `./assets/img/${project.img}` : `../../assets/img/${project.img}`;
 
       const description = document.createElement("div");
       description.innerHTML += `
@@ -57,5 +56,5 @@
     }
   }
 
-  setup();
+  projectGridSetup();
 })();
