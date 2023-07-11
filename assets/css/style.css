@@ -11,6 +11,7 @@
   --size-s: 0.8rem;
   --size-m: 1rem;
   --size-l: 2rem;
+  --size-xl: 3rem;
 
   --fw-light: 350;
   --fw-regular: 550;
@@ -362,15 +363,19 @@ header h3:hover {
   #projectGrid .intro p {
     --CASL: 1;
     display: contents;
-    font-size: var(--size-l);
-    line-height: 1.8rem;
+    font-size: var(--size-xl);
+    line-height: 3.5rem;
   }
 
   #projectGrid .intro p > a {
     --CASL: 1;
     --slnt: -12;
-    font-size: var(--size-l);
-    line-height: 1rem;
+    font-size: var(--size-xl);
+    line-height: 3.5rem;
+  }
+
+  #index h3 a {
+    font-size: var(--size-xl);
   }
 
   #projectGrid {
@@ -391,14 +396,18 @@ header h3:hover {
     --CASL: 1;
     display: contents;
     font-size: var(--size-l);
-    line-height: 1.8rem;
+    line-height: 2.5rem;
   }
 
   #projectGrid .intro p > a {
     --CASL: 1;
     --slnt: -12;
     font-size: var(--size-l);
-    line-height: 1rem;
+    line-height: 2.5rem;
+  }
+
+  #index h3 a {
+    font-size: var(--size-l);
   }
 
   #projectGrid {
@@ -438,15 +447,19 @@ header h3:hover {
   #projectGrid .intro p {
     --CASL: 1;
     display: contents;
-    font-size: var(--size-m);
-    line-height: 1.8rem;
+    font-size: var(--size-l);
+    line-height: 2.5rem;
   }
 
   #projectGrid .intro p > a {
     --CASL: 1;
     --slnt: -12;
-    font-size: var(--size-m);
-    line-height: 1rem;
+    font-size: var(--size-l);
+    line-height: 2.5rem;
+  }
+
+  #index h3 a {
+    font-size: var(--size-l);
   }
 
   .intro {
