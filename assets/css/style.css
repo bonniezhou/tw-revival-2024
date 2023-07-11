@@ -363,14 +363,14 @@ header h3:hover {
   #projectGrid .intro p {
     --CASL: 1;
     display: contents;
-    font-size: var(--size-m);
+    font-size: var(--size-l);
     line-height: 1.8rem;
   }
 
   #projectGrid .intro p > a {
     --CASL: 1;
     --slnt: -12;
-    font-size: var(--size-m);
+    font-size: var(--size-l);
     line-height: 1rem;
   }
 
@@ -388,6 +388,20 @@ header h3:hover {
 }
 
 @media (max-width: 1100px) {
+  #projectGrid .intro p {
+    --CASL: 1;
+    display: contents;
+    font-size: var(--size-l);
+    line-height: 1.8rem;
+  }
+
+  #projectGrid .intro p > a {
+    --CASL: 1;
+    --slnt: -12;
+    font-size: var(--size-l);
+    line-height: 1rem;
+  }
+
   #projectGrid {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -422,6 +436,20 @@ header h3:hover {
 }
 
 @media (max-width: 768px) {
+  #projectGrid .intro p {
+    --CASL: 1;
+    display: contents;
+    font-size: var(--size-m);
+    line-height: 1.8rem;
+  }
+
+  #projectGrid .intro p > a {
+    --CASL: 1;
+    --slnt: -12;
+    font-size: var(--size-m);
+    line-height: 1rem;
+  }
+
   .intro {
     aspect-ratio: 1;
     grid-column: span 2;
