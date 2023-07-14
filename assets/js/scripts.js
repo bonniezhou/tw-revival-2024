@@ -45,7 +45,7 @@
       singleProject.setAttribute("id", i);
 
       const img = document.createElement("img");
-      img.src = !onProjectPage ? `./assets/img/${project.img}` : `../../assets/img/${project.img}`;
+      img.src = !onProjectPage ? `./../assets/img/${project.img}` : `../../assets/img/${project.img}`;
 
       const description = document.createElement("div");
       description.innerHTML += `
