@@ -29,7 +29,7 @@
   async function projectGridSetup() {
     // Set the path and onProjectPage variables to help render the correct img.src and href values in the HTML, and to pass on to shuffleArray fn.
     let path = window.location.pathname;
-    let onProjectPage = path.includes('revival'); // ie, revival/reece/
+    let onProjectPage = path.includes('revivals'); // ie, revival/reece/
 
     // Get data
     let fontData = await getJSONData();
