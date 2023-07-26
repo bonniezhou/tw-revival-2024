@@ -1,7 +1,7 @@
 (function() {
   async function getJSONData() {
     try {
-      let response = await fetch("/assets/js/projects.json");
+      let response = await fetch("./assets/js/projects.json");
       let data = await response.json();
       return data;
     } catch(error) {
@@ -41,11 +41,11 @@
       const project = shuffledData[i];
 
       const singleProject = document.createElement("a");
-      singleProject.href = !onProjectPage ? project.url : `../${project.url}`;
+      singleProject.href = !onProjectPage ? project.url : `./${project.url}`;
       singleProject.setAttribute("id", i);
 
       const img = document.createElement("img");
-      img.src = !onProjectPage ? `./../assets/img/${project.img}` : `../../assets/img/${project.img}`;
+      img.src = !onProjectPage ? `./assets/img/${project.img}` : `./assets/img/${project.img}`;
 
       const description = document.createElement("div");
       description.innerHTML += `
