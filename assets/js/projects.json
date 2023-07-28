@@ -2,115 +2,115 @@
   {
     "title": "Reece",
     "designer": "Nora Warschewski",
-    "url": "../reece/",
+    "url": "/reece/",
     "img": "/reece/thumbnail.jpg"
   },
   {
     "title": "Gautina",
     "designer": "Joke de Winter",
-    "url": "../gautina/",
+    "url": "/gautina/",
     "img": "/gautina/thumbnail.jpg"
   },
   {
     "title": "Reincarnation",
     "designer": "Quang Huy Lê",
-    "url": "../reincarnation/",
+    "url": "/reincarnation/",
     "img": "/reincarnation/thumbnail.jpg"
   },
   {
     "title": "Eusebius",
     "designer": "David Huang",
-    "url": "../eusebius/",
+    "url": "/eusebius/",
     "img": "/eusebius/thumbnail.jpg"
   },
   {
     "title": "Charlotte",
     "designer": "Adriana Garcidueñas",
-    "url": "../charlotte/",
-    "img": "charlotte/thumbnail.jpeg"
+    "url": "/charlotte/",
+    "img": "/charlotte/thumbnail.jpeg"
   },
   {
     "title": "Xerxes",
     "designer": "Beto López Tristán",
-    "url": "../xerxes/",
-    "img": "xerxes/thumbnail.jpg"
+    "url": "/xerxes/",
+    "img": "/xerxes/thumbnail.jpg"
   },
   {
     "title": "Sojourn",
     "designer": "Avery Lee Qiu Wen",
-    "url": "../sojourn/",
-    "img": "sojourn/thumbnail.png"
+    "url": "/sojourn/",
+    "img": "/sojourn/thumbnail.png"
   },
   {
     "title": "Jean",
     "designer": "Caroline Rodrigues de Lima",
-    "url": "../jean/",
-    "img": "jean/thumbnail.jpg"
+    "url": "/jean/",
+    "img": "/jean/thumbnail.jpg"
   },
   {
     "title": "Willo",
     "designer": "Jacob Witt",
-    "url": "../willo/",
-    "img": "willo/thumbnail.jpg"
+    "url": "/willo/",
+    "img": "/willo/thumbnail.jpg"
   },
   {
     "title": "Jakob",
     "designer": "Rishi Murugesan ",
-    "url": "../jakob/",
-    "img": "jakob/thumbnail.jpg"
+    "url": "/jakob/",
+    "img": "/jakob/thumbnail.jpg"
   },
   {
     "title": "Agitate",
     "designer": "Kurt F. Shaffert",
-    "url": "../agitate/",
-    "img": "agitate/thumbnail.jpg"
+    "url": "/agitate/",
+    "img": "/agitate/thumbnail.jpg"
   },
   {
     "title": "Hasten",
     "designer": "Julia Liang",
-    "url": "../hasten/",
-    "img": "hasten/thumbnail.jpg"
+    "url": "/hasten/",
+    "img": "/hasten/thumbnail.jpg"
   },
   {
     "title": "Mechanik",
     "designer": "Raquel Rodriguez",
-    "url": "../mechanick/",
-    "img": "mechanick/thumbnail.png"
+    "url": "/mechanick/",
+    "img": "/mechanick/thumbnail.png"
   },
   {
     "title": "Figgy V.",
     "designer": "Allie Schmitz",
-    "url": "../figgy-v/",
-    "img": "figgy-v/thumbnail.jpg"
+    "url": "/figgy-v/",
+    "img": "/figgy-v/thumbnail.jpg"
   },
   {
     "title": "Julieta",
     "designer": "Alejandra Hernandez Chavez",
-    "url": "../julieta/",
-    "img": "julieta/thumbnail.png"
+    "url": "/julieta/",
+    "img": "/julieta/thumbnail.png"
   },
   {
     "title": "Wicked",
     "designer": "Aasawari S. Kulkarni",
-    "url": "../wicked/",
-    "img": "wicked/thumbnail.jpg"
+    "url": "/wicked/",
+    "img": "/wicked/thumbnail.jpg"
   },
   {
     "title": "BK Ferry",
     "designer": "Tim Cronin",
-    "url": "../bk-ferry/",
-    "img": "bkferry/thumbnail.png"
+    "url": "/bk-ferry/",
+    "img": "/bkferry/thumbnail.png"
   },
   {
     "title": "Paige",
     "designer": "Sarah Wong",
-    "url": "../paige/",
-    "img": "paige/thumbnail.png"
+    "url": "/paige/",
+    "img": "/paige/thumbnail.png"
   },
   {
     "title": "Ronda",
     "designer": "Rong Xiang",
-    "url": "../ronda/",
-    "img": "ronda/thumbnail.jpg"
+    "url": "/ronda/",
+    "img": "/ronda/thumbnail.jpg"
   }
 ]
