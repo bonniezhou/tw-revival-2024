@@ -45,15 +45,22 @@
        const singleProject = document.createElement("a");
        singleProject.href = onHomepage ? `.${project.url}` : `./..${project.url}`;
        singleProject.setAttribute("id", i);
+       singleProject.setAttribute("class", "square");
   
        const img = document.createElement("img");
        img.src = onHomepage ? `./assets/img${project.img}` : `./../assets/img${project.img}`;
-  
-       const description = document.createElement("div");
-       description.innerHTML += `
+       const font = document.createElement("div");
+       font.setAttribute("class", "font");
+       font.innerHTML += `
+         <p>${project.title}</p>
+       `;
+
+       const designer = document.createElement("div");
+       designer.setAttribute("class", "designer");
+       designer.innerHTML += `
          <p>${project.designer}</p>
        `;
-       singleProject.append(img, description);
+       singleProject.append(font, designer);
        parent.appendChild(singleProject);
      }
    }

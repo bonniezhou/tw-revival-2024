@@ -56,31 +56,8 @@ body {
 ---------------- TYPOGRAPHY -------------
 ========================================= */
 
-p,
-.btn,
-h2,
-h3,
-h4,
-h5,
-h6,
-li,
-b {
-  font-weight: var(--fw-light);
-  font-size: var(--size-s);
-  line-height: 1.3rem;
-}
-
 a {
   color: var(--clr-acc-2);
-}
-
-p,
-h1,
-h2,
-h3,
-h4,
-h5 {
-  margin-top: 0;
 }
 
 h1, header h1 {
@@ -97,155 +74,72 @@ h3 {
 }
 
 /* =========================================
----------------- PROJECT GRID -------------
-========================================= */
-
-.intro {
-  aspect-ratio: 1;
-  grid-column: span 2;
-  grid-row: span 2;
-  padding: 3rem;
-}
-
-#projectGrid .intro p {
-  --CASL: 1;
-  display: contents;
-  font-size: var(--size-l);
-  line-height: 2.4rem;
-}
-
-#projectGrid .intro p > a {
-  --CASL: 1;
-  --slnt: -12;
-  font-size: var(--size-l);
-  font-weight: var(--fw-light);
-  line-height: 2.4rem;
-  text-decoration: none;
-  transition: 1s;
-}
-
-#projectGrid .intro p > a:hover {
-  font-weight: var(--fw-regular);
-  transition: 1s;
-}
-
-/* ProjectGrid */
-
-#projectGrid {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-gap: 1px;
-  width: 100%;
-}
-
-#projectGrid > * {
-  background-color: var(--clr-grey);
-}
-
-/* ProjectGrid Img */
-
-#projectGrid img {
-  aspect-ratio: 1;
-  background: var(--clr-grey);
-  display: block;
-  padding: 0.3rem;
-  width: 100%;
-}
-
-#projectGrid a img {
-  transition: all 0.3s ease;
-}
-
-#projectGrid a:hover img {
-  opacity: 0.1;
-}
-
-/* ProjectGrid Text */
-
-#index a {
-  color: var(--clr-black);
-}
-
-#index h3 {
-  display: contents;
-  margin: 0 0 2rem 0;
-}
-
-#index h3 a {
-  font-size: var(--size-l);
-  font-weight: var(--fw-bold);
-  transition: 1s;
-  text-decoration: none;
-}
-
-#index h3 a:hover {
-  font-weight: var(--fw-regular);
-}
-
-#projectGrid > a {
-  color: var(--clr-black);
-  position: relative;
-  z-index: 1;
-}
-
-#projectGrid > a > div {
-  align-items: center;
-  display: flex;
-  font-size: var(--size-l);
-  font-weight: var(--fw-400);
-  justify-content: center;
-  left: 50%;
-  position: absolute;
-  text-align: center;
-  top: 52%;
-  transform: translate(-50%, -50%);
-  width: 80%;
-  z-index: -1;
-}
-
-#projectGrid h2,
-#projectGrid a {
-  font-size: var(--size-m);
-  font-weight: var(--fw-regular);
-  line-height: 0.8rem;
-  text-decoration: none;
-  transition: 1s;
-}
-
-#projectGrid p {
-  --CASL: 1;
-  font-size: var(--size-l);
-  font-weight: var(--fw-light);
-  line-height: 2.3rem;
-  text-decoration: none;
-  transition: 1s;
-}
-
-#projectGrid a:hover p {
-  --CASL: -10;
-  font-weight: var(--fw-bold);
-  letter-spacing: 0.01rem;
-}
-
-/* =========================================
 ------------------ HEADER ---------------
 ========================================= */
 
+.banner {
+  background: red;
+  color: white;
+  padding: .5rem 3rem;
+  text-transform: uppercase;
+}
+
 header {
-  margin-bottom: 5rem;
-  padding: 3rem 1rem 1rem 3rem;
+  padding: 3rem;
 }
 
-header h3 a {
+/* =========================================
+---------------- PROJECT GRID -------------
+========================================= */
+
+#projectGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1.2rem;
+  padding: 0 3rem;
+  width: 100%;
+}
+
+/* ProjectGrid Square */
+
+#projectGrid .square {
+  aspect-ratio: 1;
+  border: 1px solid gray;
+  border-radius: .5rem;
+
   color: var(--clr-black);
-  text-decoration: none;
+  position: relative;
+  z-index: 1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: var(--size-m);
+  font-weight: var(--fw-regular);
+  line-height: 0.8rem;
+  transition: all 400ms;
 }
 
-header h3:hover {
-  font-weight: var(--fw-light);
+#projectGrid .font {
+  --CASL: 1;
+  font-size: var(--size-l);
 }
 
+#projectGrid .designer {
+  position: absolute;
+  left: 50%;
+  width: 100%;
+  text-align: center;
+  bottom: 1%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
 
+#projectGrid a:hover {
+  background: red;
+  color: white;
+}
 
 /* =========================================
 ------------------ PROJECT ---------------
