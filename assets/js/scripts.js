@@ -52,7 +52,7 @@
        const font = document.createElement("div");
        font.setAttribute("class", "font");
        font.innerHTML += `
-         <p>${project.title}</p>
+         <h2>${project.title}</h2>
        `;
 
        const designer = document.createElement("div");
