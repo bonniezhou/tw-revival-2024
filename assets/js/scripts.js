@@ -35,7 +35,7 @@
    async function projectGridSetup() {
      // Get data
      let fontData = await getJSONData();
-     let shuffledData = shuffleArray(fontData);
+     let shuffledData = fontData; //shuffleArray(fontData);
   
      // Render the project grid
      const parent = document.getElementById("projectGrid");
