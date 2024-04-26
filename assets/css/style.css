@@ -14,12 +14,14 @@
 
   --size-s: 0.8rem;
   --size-m: 1rem;
-  --size-l: 2rem;
+  --size-l: 1.5rem;
   --size-xl: 3rem;
 
   --fw-light: 350;
   --fw-regular: 550;
   --fw-bold: 1000;
+
+  --transition-dur: 400ms;
 }
 
 ::-webkit-scrollbar {
@@ -71,15 +73,16 @@ a {
 
 h1 {
   color: var(--clr-acc-1);
-  font-weight: 1000;
-  transition: 1s;
+  font-size: var(--size-xl);
+  font-weight: var(--fw-bold);
+  transition: var(--transition-dur);
 }
 
 h3 {
   font-size: var(--size-l);
   font-weight: var(--fw-bold);
   margin: 0;
-  transition: 1s;
+  transition: var(--transition-dur);
 }
 
 h1 a,
@@ -100,6 +103,27 @@ h3 a {
 
 header {
   padding: 3rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+header section {
+  grid-column: span 3;
+}
+
+header img {
+  width: 400px;
+  grid-column: span 2;
+  padding: 0 3rem;
+  margin: auto;
+}
+
+p a {
+  transition: var(--transition-dur);
+}
+
+p a:hover {
+  font-weight: var(--fw-bold);
 }
 
 /* =========================================
@@ -132,12 +156,13 @@ header {
   font-size: var(--size-m);
   font-weight: var(--fw-regular);
   line-height: 0.8rem;
-  transition: all 400ms;
+  transition: all var(--transition-dur);
 }
 
 #projectGrid .font {
   --CASL: 1;
   font-size: var(--size-l);
+  font-weight: var(--fw-bold);
 }
 
 #projectGrid .designer {
@@ -159,32 +184,38 @@ header {
 ------------------ PROJECT ---------------
 ========================================= */
 
+#singleProject header {
+  padding: 2rem 3rem;
+}
+
+#singleProject h3 a {
+  font-size: var(--size-m);
+  font-weight: var(--fw-regular);
+  transition: var(--transition-dur);
+}
+
+#singleProject h3 a:hover {
+  font-weight: var(--fw-bold);
+}
+
 #singleProject article {
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto auto;
   grid-gap: 1rem;
 }
 
 .projectIntro {
-  grid-column: span 3;
   min-height: 100vh;
-  padding: 3rem;
-}
-
-.sticky {
-  position: sticky;
-  top: 1rem;
+  padding: 0 3rem;
 }
 
 #singleProject article h1 {
-  font-size: 3rem;
-  margin-bottom: 0.5rem;
+  margin: 0;
 }
 
 #singleProject article h2 {
-  font-size: 1.6rem;
-  margin-bottom: 2rem;
+  font-size: var(--size-l);
 }
 
 #singleProject article p {
@@ -196,14 +227,12 @@ header {
 #singleProject article p a {
   font-size: var(--size-s);
   font-weight: var(--fw-regular);
-  transition: 1s;
+  transition: var(--transition-dur);
   text-decoration: none;
 }
 
 #singleProject article p a:hover {
-  --slnt: -10;
-  font-size: var(--size-m);
-  font-weight: 300;
+  font-weight: var(--fw-bold);
 }
 
 .bio::before {
@@ -216,23 +245,23 @@ header {
   text-align: center;
 }
 
-.projectImg {
-  grid-column: span 5;
-  margin: 8rem 3rem 1rem 3rem;
+.featuredImage {
+  padding: 3rem;
 }
 
-.projectImg img {
+.featuredImage img {
   margin-bottom: 2rem;
   width: 100%;
 }
 
-.projectImg img:last-child {
-  margin-bottom: none;
+.projectImages img {
+  width: 100%;
+  padding: 0 3rem;
 }
 
 #singleProject #projectGrid {
-  grid-gap: 1px;
-  margin: 6rem 0;
+  grid-gap: 1.2rem;
+  padding: 3rem;
 }
 
 #singleProject #projectGrid img {
@@ -337,12 +366,12 @@ header {
     padding: 1rem;
   }
 
-  .projectImg {
+  .featuredImage {
     grid-column: span 2;
     margin: 1rem;
   }
   
-  .projectImg img {
+  .featuredImage img {
     margin-bottom: 1rem;
   }
 
@@ -426,12 +455,12 @@ header {
     padding: 1rem;
   }
 
-  .projectImg {
+  .featuredImage {
     grid-column: span 1;
     margin: 1rem;
   }
   
-  .projectImg img {
+  .featuredImage img {
     margin-bottom: 1rem;
   }
 
