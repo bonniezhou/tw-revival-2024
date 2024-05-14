@@ -12,17 +12,17 @@
   --slnt: 0;   /* Upright      */
   --CRSV: 0.5; /* Auto Cursive */
 
-  --size-s: 0.8rem;
-  --size-m: 1rem;
-  --size-l: 1.5rem;
-  --size-xl: 2.4rem;
+  --size-s: 1rem;
+  --size-m: 1.5rem;
+  --size-l: 2.5rem;
+  --size-xl: 2.8rem;
 
   --fw-light: 350;
   --fw-regular: 550;
   --fw-bold: 1000;
 
   --transition-dur: 400ms;
-  --font-family-main: 'Recursive', sans-serif;
+  --font-family-main: 'Sora', sans-serif;
 }
 
 ::-webkit-scrollbar {
@@ -68,6 +68,10 @@ body {
   overflow-x: hidden;
 }
 
+p {
+  font-size: var(--size-s);
+}
+
 a {
   color: var(--clr-acc-2);
 }
@@ -79,8 +83,10 @@ a {
 .banner {
   background: red;
   color: white;
-  padding: .5rem 3rem;
+  padding: 1rem 3rem;
   text-transform: uppercase;
+  font-size: var(--size-s);
+  font-weight: var(--fw-bold);
 }
 
 header {
@@ -134,17 +140,14 @@ p a:hover {
 
 footer {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1.2rem;
   padding: 3rem 3rem 4rem;
 }
 
 footer h3 {
   font-size: var(--size-m);
   font-weight: var(--fw-regular);
-}
-
-footer p {
-  font-size: var(--size-s);
 }
 
 /* =========================================
@@ -161,7 +164,7 @@ footer p {
 
 #projectGrid .square {
   aspect-ratio: 1;
-  border: 1px solid gray;
+  border: 1px solid rgb(0, 0, 0, .2);
   border-radius: .5rem;
 
   color: var(--clr-black);
@@ -172,15 +175,12 @@ footer p {
   align-items: center;
   justify-content: center;
 
-  font-size: var(--size-m);
-  font-weight: var(--fw-regular);
   line-height: 0.8rem;
   transition: all var(--transition-dur);
 }
 
 #projectGrid .font {
-  --CASL: 1;
-  font-size: var(--size-l);
+  font-size: var(--size-m);
   font-weight: var(--fw-bold);
 }
 
@@ -192,6 +192,10 @@ footer p {
   bottom: 1%;
   transform: translate(-50%, -50%);
   z-index: -1;
+  color: rgb(0, 0, 0, .6);
+  font-size: var(--size-s);
+  font-weight: var(--fw-regular);
+  transition: all var(--transition-dur);
 }
 
 #projectGrid a:hover {
@@ -199,8 +203,12 @@ footer p {
   color: white;
 }
 
+#projectGrid a:hover .designer{
+  color: rgb(255, 255, 255, .6);
+}
+
 /* =========================================
------------------- PROJECT ---------------
+------------------ PROJECT PAGE ---------------
 ========================================= */
 
 #singleProject header {
@@ -208,7 +216,7 @@ footer p {
 }
 
 #singleProject h3 a {
-  font-size: var(--size-m);
+  font-size: var(--size-s);
   font-weight: var(--fw-regular);
   transition: var(--transition-dur);
 }
@@ -231,16 +239,6 @@ footer p {
 
 #singleProject article h1 {
   margin: 0;
-}
-
-#singleProject article h2 {
-  font-size: var(--size-l);
-}
-
-#singleProject article p {
-  font-size: var(--size-m);
-  font-weight: var(--fw-light);
-  line-height: 1.4rem;
 }
 
 #singleProject article p a {
