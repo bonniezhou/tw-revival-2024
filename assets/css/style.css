@@ -22,6 +22,7 @@
   --fw-bold: 1000;
 
   --transition-dur: 400ms;
+  --font-family-main: 'Recursive', sans-serif;
 }
 
 ::-webkit-scrollbar {
@@ -53,7 +54,7 @@
 html,
 body {
   background: var(--clr-grey);
-  font-family: 'Recursive', sans-serif;
+  font-family: var(--font-family-main);
   height: 100%;
   margin: 0;
   overflow: auto;
