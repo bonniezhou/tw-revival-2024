@@ -45,6 +45,9 @@
        const singleProject = document.createElement("a");
        singleProject.href = onHomepage ? `.${project.url}` : `./..${project.url}`;
        singleProject.setAttribute("class", "square");
+
+       const container = document.createElement("div");
+       container.setAttribute("class", "container");
   
        const font = document.createElement("div");
        font.setAttribute("class", "font " + project.title.toLowerCase());
@@ -57,7 +60,8 @@
        designer.innerHTML += `
          <p>${project.designer}</p>
        `;
-       singleProject.append(font, designer);
+       container.append(font, designer);
+       singleProject.append(container);
        parent.appendChild(singleProject);
      }
    }
