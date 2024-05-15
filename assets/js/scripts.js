@@ -7,8 +7,7 @@
   
    async function getJSONData() {
      try {
-      //  let response = await fetch(onHomepage ? "./assets/js/projects.json" : "./../assets/js/projects.json");
-      let response = await fetch(path + "assets/js/projects.json");
+       let response = await fetch("./assets/js/projects.json");
       let data = await response.json();
        return data;
      } catch(error) {
