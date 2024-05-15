@@ -231,6 +231,7 @@ footer h3 {
 #singleProject h3 a {
   font-size: var(--size-s);
   font-weight: var(--fw-regular);
+  text-decoration: underline;
   transition: var(--transition-dur);
 }
 
@@ -256,9 +257,8 @@ footer h3 {
 
 #singleProject article p a {
   font-size: var(--size-s);
-  font-weight: var(--fw-regular);
-  transition: var(--transition-dur);
-  text-decoration: none;
+  transition: none;
+  text-decoration: underline;
 }
 
 #singleProject article p a:hover {
