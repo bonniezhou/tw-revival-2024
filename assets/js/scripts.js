@@ -44,13 +44,12 @@
   
        const singleProject = document.createElement("a");
        singleProject.href = onHomepage ? `.${project.url}` : `./..${project.url}`;
-       singleProject.setAttribute("id", i);
        singleProject.setAttribute("class", "square");
   
        const img = document.createElement("img");
        img.src = onHomepage ? `./assets/img${project.img}` : `./../assets/img${project.img}`;
        const font = document.createElement("div");
-       font.setAttribute("class", "font");
+       font.setAttribute("class", "font " + project.title.toLowerCase());
        font.innerHTML += `
          <h2>${project.title}</h2>
        `;
