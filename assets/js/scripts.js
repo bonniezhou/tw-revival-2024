@@ -3,12 +3,13 @@
   Set the path and onHomepage variables to help determine the correct path for fetching JSON data, render the correct img.src and href values in the HTML.
   */
    let path = window.location.pathname;
-   let onHomepage = path == '/2023/revivals/' || path =='/2023/revivals/index.html';
+  //  let onHomepage = path == '/2023/revivals/' || path =='/2023/revivals/index.html';
   
    async function getJSONData() {
      try {
-       let response = await fetch(onHomepage ? "./assets/js/projects.json" : "./../assets/js/projects.json");
-       let data = await response.json();
+      //  let response = await fetch(onHomepage ? "./assets/js/projects.json" : "./../assets/js/projects.json");
+      let response = await fetch(path + "assets/js/projects.json");
+      let data = await response.json();
        return data;
      } catch(error) {
        console.log(error);
