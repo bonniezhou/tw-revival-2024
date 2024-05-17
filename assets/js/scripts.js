@@ -47,7 +47,7 @@
        const project = shuffledData[i];
   
        const singleProject = document.createElement("a");
-       singleProject.href = onHomepage ? `.${project.url}` : `./..${project.url}`;
+       singleProject.href = onGithubPages ? `${path}/${project.url}` : `./..${project.url}`;
        singleProject.setAttribute("class", "square");
 
        const container = document.createElement("div");
