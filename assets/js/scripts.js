@@ -4,10 +4,14 @@
   */
    let path = window.location.pathname;
    let onHomepage = path == '/2023/revivals/' || path =='/2023/revivals/index.html';
-  
+   let onGithubPages = window.location.host == 'bonniezhou.github.io';
+
    async function getJSONData() {
      try {
-      let response = await fetch(onHomepage ? "./assets/js/projects.json" : "./../assets/js/projects.json");
+      let response = await fetch(onGithubPages ? 
+        'https://raw.githubusercontent.com/bonniezhou/tw-revival-2024/main/assets/js/projects.json' :
+        './../assets/js/projects.json'
+      );
       let data = await response.json();
        return data;
      } catch(error) {
