@@ -1,8 +1,8 @@
 :root {
-  --clr-black: #000909;
-  --clr-grey: #f1f1f1;
+  --clr-black: #040404;
+  --clr-grey: #f5f5f5;
   --clr-white: #ffffff;
-  --clr-red: red;
+  --clr-red: #FF1A19;
 
   --clr-acc-1: #000;
   --clr-acc-2: #000;
@@ -38,7 +38,7 @@
 }
 
 ::selection {
-  color: #f1f1f1;
+  color: var(--clr-white);
   background: var(--clr-acc-1);
 }
 
@@ -81,8 +81,8 @@ a {
 ========================================= */
 
 .banner {
-  background: red;
-  color: white;
+  background: var(--clr-red);
+  color: var(--clr-white);
   padding: 1rem 3rem;
   text-transform: uppercase;
   font-size: var(--size-s);
@@ -205,8 +205,8 @@ footer h3 {
 }
 
 #projectGrid a:hover {
-  background: red;
-  color: white;
+  background: var(--clr-red);
+  color: var(--clr-white);
 }
 
 #projectGrid a:hover .designer{
