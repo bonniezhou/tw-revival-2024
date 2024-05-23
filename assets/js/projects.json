@@ -1,116 +1,82 @@
 [
   {
-    "title": "Reece",
-    "designer": "Nora Warschewski",
-    "url": "/reece/",
-    "img": "/reece/thumbnail.jpg"
+    "title": "Beatrice No. 30",
+    "designer": "Annie Szafranski",
+    "url": "beatrice-no-30"
   },
   {
-    "title": "Gautina",
-    "designer": "Joke de Winter",
-    "url": "/gautina/",
-    "img": "/gautina/thumbnail.jpg"
+    "title": "Chelt",
+    "designer": "Kourosh Beigpour",
+    "url": "chelt"
   },
   {
-    "title": "Reincarnation",
-    "designer": "Quang Huy Lê",
-    "url": "/reincarnation/",
-    "img": "/reincarnation/thumbnail.jpg"
+    "title": "Didoni",
+    "designer": "Porfirio Lopez",
+    "url": "didoni"
   },
   {
-    "title": "Eusebius",
-    "designer": "David Huang",
-    "url": "/eusebius/",
-    "img": "/eusebius/thumbnail.jpg"
+    "title": "El Greco",
+    "designer": "Rachel Ross",
+    "url": "el-greco"
   },
   {
-    "title": "Charlotte",
-    "designer": "Adriana Garcidueñas",
-    "url": "/charlotte/",
-    "img": "/charlotte/thumbnail.jpeg"
+    "title": "Hojaldre Medieval",
+    "designer": "Aitana Cantú",
+    "url": "hojaldre-medieval"
   },
   {
-    "title": "Xerxes",
-    "designer": "Beto López Tristán",
-    "url": "/xerxes/",
-    "img": "/xerxes/thumbnail.jpg"
+    "title": "Ioannem",
+    "designer": "John Misael Villanueva",
+    "url": "ioannem"
   },
   {
-    "title": "Sojourn",
-    "designer": "Avery Lee Qiu Wen",
-    "url": "/sojourn/",
-    "img": "/sojourn/thumbnail.png"
+    "title": "Jasmine",
+    "designer": "Bonnie Zhou",
+    "url": "jasmine"
   },
   {
-    "title": "Jean",
-    "designer": "Caroline Rodrigues de Lima",
-    "url": "/jean/",
-    "img": "/jean/thumbnail.jpg"
+    "title": "Jest",
+    "designer": "Maggie Pan",
+    "url": "jest"
   },
   {
-    "title": "Willo",
-    "designer": "Jacob Witt",
-    "url": "/willo/",
-    "img": "/willo/thumbnail.jpg"
+    "title": "Klenkens",
+    "designer": "Laimė Lukošiūnaitė",
+    "url": "klenkens"
   },
   {
-    "title": "Jakob",
-    "designer": "Rishi Murugesan ",
-    "url": "/jakob/",
-    "img": "/jakob/thumbnail.jpg"
+    "title": "Lakhos",
+    "designer": "Naomi Soto",
+    "url": "lakhos"
   },
   {
-    "title": "Agitate",
-    "designer": "Kurt F. Shaffert",
-    "url": "/agitate/",
-    "img": "/agitate/thumbnail.jpg"
+    "title": "Mermaid Caslon",
+    "designer": "April Moralba",
+    "url": "mermaid-caslon"
   },
   {
-    "title": "Hasten",
-    "designer": "Julia Liang",
-    "url": "/hasten/",
-    "img": "/hasten/thumbnail.jpg"
+    "title": "Mr. William",
+    "designer": "Pearl Law",
+    "url": "mr-william"
   },
   {
-    "title": "Mechanik",
-    "designer": "Raquel Rodriguez",
-    "url": "/mechanick/",
-    "img": "/mechanick/thumbnail.png"
+    "title": "Norrland",
+    "designer": "Kim-Kim Bui",
+    "url": "norrland"
   },
   {
-    "title": "Figgy V.",
-    "designer": "Allie Schmitz",
-    "url": "/figgy-v/",
-    "img": "/figgy-v/thumbnail.jpg"
+    "title": "Romane",
+    "designer": "Talya Baker",
+    "url": "romane"
   },
   {
-    "title": "Julieta",
-    "designer": "Alejandra Hernandez Chavez",
-    "url": "/julieta/",
-    "img": "/julieta/thumbnail.png"
+    "title": "Rudo",
+    "designer": "Rajan Kumar Singh (Dashaen)",
+    "url": "rudo"
   },
   {
-    "title": "Wicked",
-    "designer": "Aasawari S. Kulkarni",
-    "url": "/wicked/",
-    "img": "/wicked/thumbnail.jpg"
-  },
-  {
-    "title": "BK Ferry",
-    "designer": "Tim Cronin",
-    "url": "/bk-ferry/",
-    "img": "/bkferry/thumbnail.png"
-  },
-  {
-    "title": "Paige",
-    "designer": "Sarah Wong",
-    "url": "/paige/",
-    "img": "/paige/thumbnail.png"
-  },
-  {
-    "title": "Ronda",
-    "designer": "Rong Xiang",
-    "url": "/ronda/",
-    "img": "/ronda/thumbnail.jpg"
+    "title": "Tweedle",
+    "designer": "Rina Alfonso",
+    "url": "tweedle"
   }
 ]

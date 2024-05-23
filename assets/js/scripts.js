@@ -47,14 +47,14 @@
        const project = shuffledData[i];
   
        const singleProject = document.createElement("a");
-       singleProject.href = onGithubPages ? `/tw-revival-2024${project.url}` : `./..${project.url}`;
+       singleProject.href = onGithubPages ? `/tw-revival-2024/${project.url}` : `./../${project.url}`;
        singleProject.setAttribute("class", "square");
 
        const container = document.createElement("div");
        container.setAttribute("class", "container");
   
        const font = document.createElement("div");
-       font.setAttribute("class", "font " + project.title.toLowerCase());
+       font.setAttribute("class", "font " + project.url);
        font.innerHTML += `
          <h2>${project.title}</h2>
        `;

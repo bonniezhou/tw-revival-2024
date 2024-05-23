@@ -77,6 +77,138 @@ a {
 }
 
 /* =========================================
+------------------ FONTS -------------------
+========================================= */
+
+@font-face {
+  font-family: 'Beatrice No. 30';
+  src: url(../font/BeatriceNo30-Regular.woff) format("woff");
+}
+.beatrice-no-30 {
+  font-family: 'Beatrice No. 30', var(--font-family-main);
+}
+
+@font-face {
+  font-family: 'Chelt';
+  src: url(../font/Chelt-Regular.woff) format("woff");
+}
+.chelt {
+  font-family: 'Chelt', var(--font-family-main);
+}
+
+@font-face {
+  font-family: 'Jasmine';
+  src: url(../font/Jasmine-Regular.woff) format("woff");
+}
+.jasmine {
+  font-family: 'Jasmine', var(--font-family-main);
+}
+
+@font-face {
+  font-family: 'Didoni';
+  src: url(../font/Didoni-Regular.woff) format("woff");
+}
+.didoni {
+  font-family: 'Didoni', var(--font-family-main);
+}
+
+@font-face {
+  font-family: 'El Greco';
+  src: url(../font/ElGreco-Regular.woff) format("woff");
+}
+.el-greco {
+  font-family: 'El Greco', var(--font-family-main);
+}
+
+@font-face {
+  font-family: 'Hojaldre Medieval';
+  src: url(../font/HojaldreMedieval-Regular.woff) format("woff");
+}
+.hojaldre-medieval {
+  font-family: 'Hojaldre Medieval', var(--font-family-main);
+}
+
+@font-face {
+  font-family: 'Ioannem';
+  src: url(../font/Ioannem-Regular.woff) format("woff");
+}
+.ioannem {
+  font-family: 'Ioannem', var(--font-family-main);
+}
+
+@font-face {
+  font-family: 'Jasmine';
+  src: url(../font/Jasmine-Regular.woff) format("woff");
+}
+.jasmine {
+  font-family: 'Jasmine', var(--font-family-main);
+}
+
+@font-face {
+  font-family: 'Jest';
+  src: url(../font/Jest-Regular.woff) format("woff");
+}
+.jest {
+  font-family: 'Jest', var(--font-family-main);
+}
+
+@font-face {
+  font-family: 'Klenkens';
+  src: url(../font/Klenkens-Regular.woff) format("woff");
+}
+.klenkens {
+  font-family: 'Klenkens', var(--font-family-main);
+}
+
+@font-face {
+  font-family: 'Lakhos';
+  src: url(../font/Lakhos-Regular.woff) format("woff");
+}
+.lakhos {
+  font-family: 'Lakhos', var(--font-family-main);
+}
+
+@font-face {
+  font-family: 'Mermaid Caslon';
+  src: url(../font/MermaidCaslon-Regular.woff) format("woff");
+}
+.mermaid-caslon {
+  font-family: 'Mermaid Caslon', var(--font-family-main);
+}
+
+@font-face {
+  font-family: 'Mr. William';
+  src: url(../font/MrWilliam-Regular.woff) format("woff");
+}
+.mr-william {
+  font-family: 'Mr. William', var(--font-family-main);
+}
+
+@font-face {
+  font-family: 'Norrland';
+  src: url(../font/Norrland-Regular.woff) format("woff");
+}
+.norrland {
+  font-family: 'Norrland', var(--font-family-main);
+}
+
+@font-face {
+  font-family: 'Romane';
+  src: url(../font/Romane-Regular.woff) format("woff");
+}
+.romane {
+  font-family: 'Romane', var(--font-family-main);
+}
+
+@font-face {
+  font-family: 'Tweedle';
+  src: url(../font/Tweedle-Regular.woff) format("woff");
+}
+.tweedle {
+  font-family: 'Tweedle', var(--font-family-main);
+}
+
+/* =========================================
 ------------------ HEADER ------------------
 ========================================= */
 
@@ -151,19 +283,6 @@ footer h3 {
 }
 
 /* =========================================
------------------- CUSTOM FONTS ------------
-========================================= */
-
-@font-face {
-  font-family: 'Jasmine';
-  src: url(../font/BZJasmine-Regular.woff) format("woff");
-}
-
-.reece {
-  font-family: 'Jasmine', var(--font-family-main);
-}
-
-/* =========================================
 ---------------- PROJECT GRID --------------
 ========================================= */
 
@@ -195,6 +314,17 @@ footer h3 {
 #projectGrid .font {
   font-size: var(--size-m);
   font-weight: var(--fw-bold);
+}
+
+/* adjust font size for specific names */
+#projectGrid .font.el-greco{
+  font-size: 1.8rem;
+}
+#projectGrid .font.hojaldre-medieval{
+  font-size: 1.3rem;
+}
+#projectGrid .font.mermaid-caslon{
+  font-size: 1.4rem;
 }
 
 #projectGrid .designer {
