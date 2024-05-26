@@ -217,6 +217,49 @@ a {
 }
 
 /* =========================================
+---------- SPECIAL CONSIDERATIONS ----------
+========================================= */
+
+#projectGrid .font.el-greco{
+  font-size: 1.8rem;
+}
+
+#projectGrid .font.hojaldre-medieval{
+  font-size: 1.3rem;
+}
+
+#projectGrid .font.mermaid-caslon{
+  font-size: 1.4rem;
+}
+
+#singleProject .chelt p,
+#singleProject .chelt a {
+  font-size: 1.1rem;
+}
+
+#singleProject .el-greco h2 {
+  font-size: 2rem;
+  line-height: 1rem;
+}
+
+#singleProject .el-greco p,
+#singleProject .el-greco a {
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+}
+
+
+#singleProject .klenkens p,
+#singleProject .klenkens a {
+  font-size: 1.1rem;
+}
+
+#singleProject .rudo p,
+#singleProject .rudo a {
+  font-size: 1.1rem;
+}
+
+/* =========================================
 ------------------ HEADER ------------------
 ========================================= */
 
@@ -322,17 +365,6 @@ footer h3 {
 #projectGrid .font {
   font-size: var(--size-m);
   font-weight: var(--fw-bold);
-}
-
-/* adjust font size for specific names */
-#projectGrid .font.el-greco{
-  font-size: 1.8rem;
-}
-#projectGrid .font.hojaldre-medieval{
-  font-size: 1.3rem;
-}
-#projectGrid .font.mermaid-caslon{
-  font-size: 1.4rem;
 }
 
 #projectGrid .designer {
