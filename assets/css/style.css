@@ -201,6 +201,14 @@ a {
 }
 
 @font-face {
+  font-family: 'Rudo';
+  src: url(../font/Rudo-Regular.woff) format("woff");
+}
+.rudo {
+  font-family: 'Rudo', var(--font-family-main);
+}
+
+@font-face {
   font-family: 'Tweedle';
   src: url(../font/Tweedle-Regular.woff) format("woff");
 }
