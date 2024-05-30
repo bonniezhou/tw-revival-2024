@@ -18,7 +18,7 @@
   --size-xl: 2.8rem;
 
   --fw-light: 350;
-  --fw-regular: 550;
+  --fw-regular: 500;
   --fw-bold: 1000;
 
   --transition-dur: 400ms;
@@ -368,7 +368,10 @@ footer h3 {
 
 #projectGrid .font {
   font-size: var(--size-m);
-  font-weight: var(--fw-bold);
+}
+
+#projectGrid .font h2 {
+  font-weight: var(--fw-regular);
 }
 
 #projectGrid .designer {
@@ -419,6 +422,7 @@ footer h3 {
 
 #singleProject article h1 {
   margin: 0;
+  font-weight: var(--fw-regular);
 }
 
 #singleProject article p a {
