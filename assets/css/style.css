@@ -535,6 +535,10 @@ footer h3 {
     padding-right: 2rem;
   }
 
+  .projectImages img {
+    padding: 0;
+  }
+
   ::-webkit-scrollbar {
     width: .1rem;
   }
