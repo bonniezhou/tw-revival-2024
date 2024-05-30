@@ -425,6 +425,10 @@ footer h3 {
   font-weight: var(--fw-regular);
 }
 
+#singleProject article h2 {
+  font-weight: var(--fw-regular);
+}
+
 #singleProject article p a {
   font-size: var(--size-s);
   transition: none;
