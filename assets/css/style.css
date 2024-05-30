@@ -97,11 +97,11 @@ a {
 }
 
 @font-face {
-  font-family: 'Jasmine';
+  font-family: 'Jasmine de Lune';
   src: url(../font/Jasmine-Regular.woff) format("woff");
 }
-.jasmine {
-  font-family: 'Jasmine', var(--font-family-main);
+.jasmine-de-lune {
+  font-family: 'Jasmine de Lune', var(--font-family-main);
 }
 
 @font-face {
@@ -226,6 +226,10 @@ a {
 
 #projectGrid .font.hojaldre-medieval{
   font-size: 1.3rem;
+}
+
+#projectGrid .font.jasmine-de-lune{
+  font-size: 1.4rem;
 }
 
 #projectGrid .font.mermaid-caslon{
