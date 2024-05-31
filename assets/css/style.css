@@ -113,11 +113,11 @@ a {
 }
 
 @font-face {
-  font-family: 'Didoni';
-  src: url(../font/Didoni-Regular.woff) format("woff");
+  font-family: 'Didotti';
+  src: url(../font/Didotti-Regular.woff) format("woff");
 }
-.didoni {
-  font-family: 'Didoni', var(--font-family-main);
+.didotti {
+  font-family: 'Didotti', var(--font-family-main);
 }
 
 @font-face {
