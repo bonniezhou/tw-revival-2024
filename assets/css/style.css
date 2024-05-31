@@ -89,6 +89,14 @@ a {
 }
 
 @font-face {
+  font-family: 'Bloem';
+  src: url(../font/Bloem-Regular.woff) format("woff");
+}
+.bloem {
+  font-family: 'Bloem', var(--font-family-main);
+}
+
+@font-face {
   font-family: 'Chelt';
   src: url(../font/Chelt-Regular.woff) format("woff");
 }
