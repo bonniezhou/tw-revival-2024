@@ -145,6 +145,14 @@ a {
 }
 
 @font-face {
+  font-family: 'IT Bodoni';
+  src: url(../font/ITBodoni-Regular.woff) format("woff");
+}
+.it-bodoni {
+  font-family: 'IT Bodoni', var(--font-family-main);
+}
+
+@font-face {
   font-family: 'Jasmine';
   src: url(../font/Jasmine-Regular.woff) format("woff");
 }
